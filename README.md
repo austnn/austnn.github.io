@@ -47,7 +47,8 @@
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@lifewire">
-<meta name="twitter:title" content="How to Easily Copy a Web Page's Code From Within Your Browser">
+<meta name="twitter:title" content="How to stop eating my poopoo ahaha austin
+">
 <meta name="twitter:description" content="Learn how to view code and copy any code you would like to use from any website using Chrome, Firefox, or Safari.">
 <meta name="twitter:image" content="https://www.lifewire.com/thmb/3SZ--WGgZjBiGXUruFLq1x3YZQ4=/1273x847/filters:fill(auto,1)/GettyImages-666671538-5a924f056bf06900379aa8a0-c011db5a5d1b4e1ca222152a8cea3c3a.jpg">
 <meta name="lotame:tax3" content="lw_css-and-html">
