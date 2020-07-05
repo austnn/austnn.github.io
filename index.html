@@ -6,18 +6,22 @@
 
 <p> Youtube vids below </p>
 <a href="https://www.youtube.com/watch?v=OWl_HlyHeVc">Oh my gosh</a>
-$(function()
-    {   
-        var element = $("#textbox").hide();
-        var count = 0;
-        $("#clickme").on("click", function()
-        {
-            count++;
-            for(var i=0;i<count;i++) {
-               element.clone().insertAfter("#clickme");
-            }
-        });
-    });
+
+    <title>Space Clicker</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+    var clicks = 0;
+    function onClick() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+    </script>
+    <button type="button" onClick="onClick()">Click me</button>
+    <p>Clicks: <a id="clicks">0</a></p>
+
+</body>
 <ol>
 	<li><a href="https://www.google.com/search?q=how+many+days+are+in+a+day&oq=how+many+days+are+in++a+day&aqs=chrome..69i64j0l7.4611j0j4&sourceid=chrome&ie=UTF-8">Google Search</a> </li>
 	<li><a href="https://discord.com/new">Discord</a> </li>
