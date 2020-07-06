@@ -7,33 +7,37 @@
 <p> Youtube vids below </p>
 <a href="https://www.youtube.com/watch?v=OWl_HlyHeVc">Oh my gosh</a>
 
-    <title>austin</title>
-</head>
+  
+ $(document).ready(function(){
+    var x = 0;    
+    function resetcounter() {
+    x = 0;
+    document.getElementById("counting").value = x;
+    }
 
-<body>
-    <script type="text/javascript">
-    var clicks = 0;
-    function onClick() {
-        clicks += 1;
-        document.getElementById("clicks").innerHTML = clicks;
-    };
-    </script>
-    <button type="button" onClick="onClick()">Click me</button>
-    <p>Clicks: <a id="clicks">0</a></p>
+   function count() {
+   if(x<50)
+    {
+      x += 1;
+    }
+    else
+    {
+        x=0;
+    }
+    document.getElementById("counting").value = x;
+   }
+   $('#btn').click(
 
-</body>
-	</head>
+         function() {
+         count();
+    });
 
-<body>
-    <script type="text/javascript">
-    var clicks = 0;
-    function onClick() {
-        clicks = 0;
-        document.getElementById("clicks").innerHTML = clicks;
-    };
-    </script>
-    <button type="button" onClick="onClick()">Reset</button>
-    <p>Clicks: <a id="clicks">0</a></p>
+    $('#reset').click(
+
+    function() {
+           resetcounter();
+    });  
+});
 
 </body>
 <ol>
